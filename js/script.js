@@ -67,7 +67,7 @@ todoForm.addEventListener("submit", (e) => {
         const inputValue = todoInput.value;
 
         if(inputValue) {
-            saveTodo(inputValue)
+            saveTodo(inputValue);
         }
 
 });
@@ -98,7 +98,7 @@ document.addEventListener("click", (e) => {
 });
 
 cancelEditBtn.addEventListener("click", (e) => {
-    e.preventDefault()
+    e.preventDefault();
 
     toggleForms();
 });
